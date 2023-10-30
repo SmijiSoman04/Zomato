@@ -65,16 +65,29 @@
     justify-content:space-between;
     float: left;
     padding: 33px;
-    margin: 8px;
+    margin: 2px 5px 20px 5px;
 }
 .cart .crd img{
-    width: 100px;
-    height: 220px;
+    width: 300px;
+    height: 250px;
     border-radius: 6px;
     margin-top: 55px;
     float: left;
     justify-content: space-between;
 }
+.cart .crd img {
+    position: relative;
+    width: 300px;
+    height: 200px;
+  }
+  
+  .hover-effect {
+    transition: opacity 0.3s ease;
+  }
+  
+  .hover-effect:hover {
+    opacity: 0.5;
+  }
 .right{
     right: 100px;
 }
